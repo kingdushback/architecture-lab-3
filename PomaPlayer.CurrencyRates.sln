@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PomaPlayer.CurrencyRates.Logic", "PomaPlayer.CurrencyRates.Logic\PomaPlayer.CurrencyRates.Logic.csproj", "{B5C83470-9BAC-41D7-8CC4-9CC2AF91B5D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PomaPlayer.CurrencyRates.WebApi", "PomaPlayer.CurrencyRatesWebApi\PomaPlayer.CurrencyRates.WebApi.csproj", "{40CF3FE4-4891-4CC4-AC07-6B9EFF599ED1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PomaPlayer.CurrencyRates.Storage", "PomaPlayer.CurrencyRates.Storage\PomaPlayer.CurrencyRates.Storage.csproj", "{9A25E9AC-F09E-4AB1-91DB-29B13D8A8B4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PomaPlayer.CurrencyRates.Storage.MS_SQL", "PomaPlayer.CurrencyRates.Storage.MS_SQL\PomaPlayer.CurrencyRates.Storage.MS_SQL.csproj", "{A3816567-D727-4B6C-8B23-F3C38F0A18EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PomaPlayer.CurrencyRates.Cron", "PomaPlayer.CurrencyRates.Cron\PomaPlayer.CurrencyRates.Cron.csproj", "{735F3FA5-5DE5-4411-9F40-0575DFC63E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PomaPlayer.CurrencyRates.Quartz", "PomaPlayer.CurrencyRates.Quartz\PomaPlayer.CurrencyRates.Quartz.csproj", "{01F4F4EC-A677-4CA6-8343-7C62EDB77DC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5C83470-9BAC-41D7-8CC4-9CC2AF91B5D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C83470-9BAC-41D7-8CC4-9CC2AF91B5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C83470-9BAC-41D7-8CC4-9CC2AF91B5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C83470-9BAC-41D7-8CC4-9CC2AF91B5D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40CF3FE4-4891-4CC4-AC07-6B9EFF599ED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40CF3FE4-4891-4CC4-AC07-6B9EFF599ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40CF3FE4-4891-4CC4-AC07-6B9EFF599ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40CF3FE4-4891-4CC4-AC07-6B9EFF599ED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A25E9AC-F09E-4AB1-91DB-29B13D8A8B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A25E9AC-F09E-4AB1-91DB-29B13D8A8B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A25E9AC-F09E-4AB1-91DB-29B13D8A8B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A25E9AC-F09E-4AB1-91DB-29B13D8A8B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3816567-D727-4B6C-8B23-F3C38F0A18EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3816567-D727-4B6C-8B23-F3C38F0A18EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3816567-D727-4B6C-8B23-F3C38F0A18EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3816567-D727-4B6C-8B23-F3C38F0A18EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{735F3FA5-5DE5-4411-9F40-0575DFC63E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735F3FA5-5DE5-4411-9F40-0575DFC63E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735F3FA5-5DE5-4411-9F40-0575DFC63E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735F3FA5-5DE5-4411-9F40-0575DFC63E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F4F4EC-A677-4CA6-8343-7C62EDB77DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F4F4EC-A677-4CA6-8343-7C62EDB77DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F4F4EC-A677-4CA6-8343-7C62EDB77DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F4F4EC-A677-4CA6-8343-7C62EDB77DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7ED7340C-C75E-46FC-9611-A31815FB5C0E}
+	EndGlobalSection
+EndGlobal
